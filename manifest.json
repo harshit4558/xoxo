@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Vibe Agent",
+  "version": "1.0.0",
+  "description": "A browser extension for enhancing web experience",
+  "permissions": [
+    "notifications",
+    "tabs",
+    "windows",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://mail.google.com/*",
+    "http://localhost:8000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+} 
