@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+      "aipolabs-mcp-apps": {
+          "command": "uvx",
+          "args": ["aipolabs-mcp", "apps-server", "--apps", "AIPOLABS_SECRETS_MANAGER", "--linked-account-owner-id", "default"],
+          "env": {
+              "AIPOLABS_ACI_API_KEY": "8462b3f1db9d1f309596bf1a4a13a1be5a35066d34609c5c8cc59df611b026cf"
+          }
+      }
+    }
+  }
