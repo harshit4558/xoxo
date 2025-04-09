@@ -1,6 +1,6 @@
 # 🧠 Talent Agent – Chrome Extension
 
-**Vibe Agent** is a Chrome extension designed to enhance personal soft skills through intelligent AI assistance. It securely manages user data and provides real-time communication feedback while interacting on platforms like LinkedIn and Gmail.
+**Talent Agent** is a Chrome extension designed to enhance personal soft skills through intelligent AI assistance. It securely manages user data and provides real-time communication feedback while interacting on platforms like LinkedIn and Gmail.
 
 ---
 
