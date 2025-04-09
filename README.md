@@ -34,8 +34,8 @@
 
 - **Chrome Extensions API**
 - **JavaScript (Manifest v3)**
-- **Python Backend (FastAPI/Flask)**
-- **AIPOLabs MCP Platform** for tool-calling and secure storage
+- **Python Backend (FastAPI)**
+- **AIPOLabs MCP Platform** for tool-calling and secure storage (work-in-progress)
 - **OpenRouter / LLM APIs** for communication analysis (planned)
 
 ---
@@ -51,14 +51,18 @@
 ---
 
 ## 📦 Project Structure
+```
 vibe-agent/
-├── manifest.json
-├── background.js
-├── popup.html
-├── contentScript.js
-├── server/ (Python backend for ACI + LLM processing)
-└── README.md
-
+├── manifest.json                  
+├── background.js                  
+├── contentScript.js              
+├── popup.html                     
+├── popup.js                       
+├── styles.css                    
+├── icons/                        
+├── server                               
+└── README.md                      
+```
 ---
 
 ## 🧪 Status
