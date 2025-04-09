@@ -10,7 +10,7 @@ import json
 load_dotenv()
 openai = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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"
+    api_key="OPENAI_KEY"
 )
 
 # Initialize ACI client for MCP server
