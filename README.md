@@ -1,32 +1,75 @@
-# Vibe Agent Browser Extension
+# 🧠 Talent Agent – Chrome Extension
 
-A basic browser extension template.
+**Vibe Agent** is a Chrome extension designed to enhance personal soft skills through intelligent AI assistance. It securely manages user data and provides real-time communication feedback while interacting on platforms like LinkedIn and Gmail.
 
-## Installation
+---
 
-1. Open Chrome/Edge browser and navigate to extensions page:
-   - Chrome: `chrome://extensions/`
-   - Edge: `edge://extensions/`
+## 🚀 Current Features
 
-2. Enable "Developer mode" in the top right corner
+### 🔐 LinkedIn Credential Storage
+- Securely stores LinkedIn username and password using the **AIPOLabs Secret Manager**.
+- Ensures user credentials are kept safe and encrypted through a backend agent connection.
 
-3. Click "Load unpacked" and select this directory
+### 📧 Email Writing Support (Gmail)
+- When the user starts composing an email on Gmail, the extension icon becomes active (blue ✎ badge).
+- The extension offers **suggestions to improve communication skills** based on the content being typed (basic placeholder or AI logic here).
 
-## Development
+---
 
-The extension currently includes:
-- `manifest.json`: Extension configuration
-- `popup.html`: The popup UI
-- `popup.js`: Popup logic
-- `icons/`: Directory for extension icons (add your icons here)
+## 🎯 Planned Features (In Progress)
 
-## Next Steps
+### 🧾 Soft Skill Extraction via LinkedIn
+- Automatically access and parse user's LinkedIn profile data (with permission).
+- Use a Large Language Model (LLM) to analyze career data and extract insights into:
+  - Communication
+  - Leadership
+  - Teamwork
+  - Critical Thinking
+  - Other transferable soft skills
+- Provide a dashboard or popup summary with personalized skill statistics and suggestions.
 
-1. Add your extension icons in the `icons` directory with sizes:
-   - 16x16px (icon16.png)
-   - 48x48px (icon48.png)
-   - 128x128px (icon128.png)
+---
 
-2. Implement your desired functionality in `popup.js`
+## 🔧 Tech Stack
 
-3. Add any necessary permissions in `manifest.json` 
+- **Chrome Extensions API**
+- **JavaScript (Manifest v3)**
+- **Python Backend (FastAPI/Flask)**
+- **AIPOLabs MCP Platform** for tool-calling and secure storage
+- **OpenRouter / LLM APIs** for communication analysis (planned)
+
+---
+
+## 🛠️ Installation (Dev Mode)
+
+1. Clone or download this repository.
+2. Go to `chrome://extensions/` in your Chrome browser.
+3. Enable **Developer mode** (top right).
+4. Click **Load Unpacked** and select the root folder of this project.
+5. The extension will appear in your browser toolbar.
+
+---
+
+## 📦 Project Structure
+vibe-agent/
+├── manifest.json
+├── background.js
+├── popup.html
+├── contentScript.js
+├── server/ (Python backend for ACI + LLM processing)
+└── README.md
+
+---
+
+## 🧪 Status
+
+> ⚠️ This is a **work-in-progress prototype**.
+
+---
+
+## ✨ Future Ideas
+
+- Allow users to connect Gmail and LinkedIn with OAuth
+- Visual dashboard of skill progression
+- Weekly email summaries or coaching tips
+- Integration with job boards or resume platforms
