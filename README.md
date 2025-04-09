@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Current Features
+## 🎯 Planned Features (In Progress)
 
 ### 🔐 LinkedIn Credential Storage
 - Securely stores LinkedIn username and password using the **AIPOLabs Secret Manager**.
@@ -13,10 +13,6 @@
 ### 📧 Email Writing Support (Gmail)
 - When the user starts composing an email on Gmail, the extension icon becomes active (blue ✎ badge).
 - The extension offers **suggestions to improve communication skills** based on the content being typed (basic placeholder or AI logic here).
-
----
-
-## 🎯 Planned Features (In Progress)
 
 ### 🧾 Soft Skill Extraction via LinkedIn
 - Automatically access and parse user's LinkedIn profile data (with permission).
@@ -29,6 +25,12 @@
 - Provide a dashboard or popup summary with personalized skill statistics and suggestions.
 
 ---
+
+### 🔮 Planned Integrations
+
+- Integration with **AIPOLabs Secret Manager** (already working) to store user credentials securely.
+- Use of the **Scrapybara App** (ACI.dev) to fetch LinkedIn profile data for skill analysis.
+  
 
 ## 🔧 Tech Stack
 
