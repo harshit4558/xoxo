@@ -28,7 +28,7 @@
 
 ### 🔮 Planned Integrations
 
-- Integration with **AIPOLabs Secret Manager** (already working) to store user credentials securely.
+- Integration with **AIPOLABS SECRET MANAGER** to store user credentials securely.
 - Use of the **Scrapybara App** (ACI.dev) to fetch LinkedIn profile data for skill analysis.
   
 
